@@ -1,0 +1,37 @@
+name: dosevia
+description: "Dosevia - Personal & Family Health Management Platform. Your Health. Your Family. One Connected Care."
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+
+  # State management (Blueprint 18.1)
+  flutter_riverpod: ^2.5.1
+
+  # Local, offline-first storage (Blueprint 18.1, 27)
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+  # Notifications for medicine reminders (Blueprint 26.2)
+  flutter_local_notifications: ^17.2.3
+
+  # Utilities
+  uuid: ^4.5.1
+  shared_preferences: ^2.3.2
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
