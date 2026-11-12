@@ -1,0 +1,48 @@
+# Flutter/Dart
+apps/mobile/.dart_tool/
+apps/mobile/.packages
+apps/mobile/.pub-cache/
+apps/mobile/.pub/
+apps/mobile/build/
+apps/mobile/.flutter-plugins
+apps/mobile/.flutter-plugins-dependencies
+apps/mobile/.metadata
+apps/mobile/coverage/
+
+# Generated platform folders (regenerate locally with `flutter create .`)
+apps/mobile/android/
+apps/mobile/ios/
+apps/mobile/web/
+apps/mobile/linux/
+apps/mobile/macos/
+apps/mobile/windows/
+
+# Local env / secrets
+*.env
+*.env.*
+!.env.example
+**/firebase_options*.dart
+**/google-services.json
+**/GoogleService-Info.plist
+
+# Secrets & keys
+*.jks
+*.keystore
+key.properties
+
+# Backend (future phases)
+backend/node_modules/
+backend/dist/
+backend/coverage/
+
+# Node (admin/partner portals, future)
+**/node_modules/
+**/.next/
+**/dist/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
